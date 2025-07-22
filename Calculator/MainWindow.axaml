@@ -20,108 +20,116 @@
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="5,5,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="FullEraseClick"/>
             <Button Content="⌫" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="105,5,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Erase_Click"/>
+            Click="EraseClick" />
             <Button Content="%" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="205,5,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="PercentClick" />
             <Button Content="÷" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="305,5,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="DivisionOrMultiplicationClick" />
             <Button Content="7" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="5,105,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="8" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="105,105,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="9" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="205,105,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="×" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="305,105,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="DivisionOrMultiplicationClick" />
             <Button Content="4" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="5,205,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="5" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="105,205,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="6" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="205,205,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="-" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="305,205,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="PlusOrMinusClick" />
             <Button Content="1" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="5,305,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="2" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="105,305,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="3" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="205,305,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Number_Click"/>
+            Click="NumberClick" />
             <Button Content="+" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="305,305,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="PlusOrMinusClick" />
             <Button Content="0" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="5,405,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
             Background="Black"
-            Click="Zero_Click"/>
+            Click="ZeroClick" />
             <Button Content="," Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="90" Height="90" Margin="105,405,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="CommaClick" />
             <Button Content="=" Foreground="DarkOrange"
             HorizontalAlignment="Left" VerticalAlignment="Top"
             Width="190" Height="90" Margin="205,405,5,5"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-            Background="Black"/>
+            Background="Black"
+            Click="EqualClick" />
         </Grid>
     </Grid>
 </Window>
