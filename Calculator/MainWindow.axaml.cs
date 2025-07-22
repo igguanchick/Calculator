@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
 using Avalonia.Controls;
+using Avalonia.Input;
 
 namespace Calculator;
 
@@ -66,6 +67,7 @@ public partial class MainWindow : Window
                 }
                 haveComma = true;
                 lastExp = true;
+                zeroNum = false;
                 expression.Content = (string)expression.Content + ",";
             }
         }
@@ -141,6 +143,7 @@ public partial class MainWindow : Window
     {
         if (sender is Button button)
         {
+            zeroNum = false;
             haveComma = false;
             if (lastExp)
             {
@@ -156,6 +159,7 @@ public partial class MainWindow : Window
     {
         if (sender is Button button)
         {
+            zeroNum = false;
             haveComma = false;
             if (lastExp)
             {
@@ -286,7 +290,6 @@ public partial class MainWindow : Window
                     haveComma = true;
                 }
             }
-            
         }
     }
 }

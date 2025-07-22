@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics.Contracts;
 using System.Linq.Expressions;
 using System.Security.Principal;
+using Avalonia.Input;
 
 namespace Calculator;
 
